@@ -5,11 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://code.jquery.com/jquery.js"></script>
   <title>Friend Finder Survey</title>
 </head>
 
 <body>
   <h1>Welcome to the survey!</h1>
+  <form action="get" id="answerForm">
 <div>
   <h2>Tell us about yourself</h2>
   <label for="name">Name (Required)</label>
@@ -20,78 +22,114 @@
 <div>
   <h2>Question 1</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option1" id="1">1
+      <input type="radio" name="option1" id="2">2
+      <input type="radio" name="option1" id="3">3
+      <input type="radio" name="option1" id="4">4
+      <input type="radio" name="option1" id="5">5
   <h2>Question 2</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option2" id="1">1
+      <input type="radio" name="option2" id="2">2
+      <input type="radio" name="option2" id="3">3
+      <input type="radio" name="option2" id="4">4
+      <input type="radio" name="option2" id="5">5
   <h2>Question 3</h2>
    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option3" id="1">1
+      <input type="radio" name="option3" id="2">2
+      <input type="radio" name="option3" id="3">3
+      <input type="radio" name="option3" id="4">4
+      <input type="radio" name="option3" id="5">5
   <h2>Question 4</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option4" id="1">1
+      <input type="radio" name="option4" id="2">2
+      <input type="radio" name="option4" id="3">3
+      <input type="radio" name="option4" id="4">4
+      <input type="radio" name="option4" id="5">5
   <h2>Question 5</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option5" id="1">1
+      <input type="radio" name="option5" id="2">2
+      <input type="radio" name="option5" id="3">3
+      <input type="radio" name="option5" id="4">4
+      <input type="radio" name="option5" id="5">5
   <h2>Question 6</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option6" id="1">1
+      <input type="radio" name="option6" id="2">2
+      <input type="radio" name="option6" id="3">3
+      <input type="radio" name="option6" id="4">4
+      <input type="radio" name="option6" id="5">5
   <h2>Question 7</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option7" id="1">1
+      <input type="radio" name="option7" id="2">2
+      <input type="radio" name="option7" id="3">3
+      <input type="radio" name="option7" id="4">4
+      <input type="radio" name="option7" id="5">5
   <h2>Question 8</h2>
    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option8" id="1">1
+      <input type="radio" name="option8" id="2">2
+      <input type="radio" name="option8" id="3">3
+      <input type="radio" name="option8" id="4">4
+      <input type="radio" name="option8" id="5">5
   <h2>Question 9</h2>
    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option9" id="1">1
+      <input type="radio" name="option9" id="2">2
+      <input type="radio" name="option9" id="3">3
+      <input type="radio" name="option9" id="4">4
+      <input type="radio" name="option9" id="5">5
   <h2>Question 10</h2>
     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, nemo?</p>
-      <input type="radio" name="option" id="1">1
-      <input type="radio" name="option" id="2">2
-      <input type="radio" name="option" id="3">3
-      <input type="radio" name="option" id="4">4
-      <input type="radio" name="option" id="5">5
+      <input type="radio" name="option10" id="1">1
+      <input type="radio" name="option10" id="2">2
+      <input type="radio" name="option10" id="3">3
+      <input type="radio" name="option10" id="4">4
+      <input type="radio" name="option10" id="5">5
 </div>
 <div>
-  <button type="submit">Find your match!</button>
+  <button type="submit" class="submit">Find your match!</button>
   </div>
+  </form>
+
+
+  <footer>
+    <p><a href="/api/friends">API Friends List</a> | <a href="#">GitHub Repo</a></p>
+  </footer>
 </body>
 
 </html>
+
+<script type="text/javascript">
+  $('.submit').on('click', function(event) {
+    event.preventDefault();
+    var newFriend = {
+      name: $('#name').val().trim(),
+      photo: $('#photo').val().trim(),
+      scores: [$('input[name=option1]:checked', '#answerForm'.val()),
+      $('input[name=option2]:checked', '#answerForm').val(),
+      $('input[name=option3]:checked', '#answerForm').val(),
+      $('input[name=option4]:checked', '#answerForm').val(),
+      $('input[name=option5]:checked', '#answerForm').val(),
+      $('input[name=option6]:checked', '#answerForm').val(),
+      $('input[name=option7]:checked', '#answerForm').val(),
+      $('input[name=option8]:checked', '#answerForm').val(),
+      $('input[name=option9]:checked', '#answerForm').val(),
+      $('input[name=option10]:checked', '#answerForm').val()
+    ]
+    }
+    console.log(newFriend);
+
+    $.post('/api/friends', newFriend, function(data) {
+      if(data) {
+        alert('added');
+      } else {
+        alert('not');
+      }
+    })
+  })
+</script>
