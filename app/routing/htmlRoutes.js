@@ -8,4 +8,3 @@ module.exports = function(app) {
     res.sendFile(path.join(__dirname, '../public/home.html'));
   });
 };
-//Need to path to home
